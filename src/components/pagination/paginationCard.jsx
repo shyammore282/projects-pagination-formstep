@@ -14,7 +14,7 @@ const PaginationCard = ({
     return pages;
   };
   return (
-    <div className="mt-6">
+    <div className="mt-9 mb-5">
       <button
         onClick={() => handleOnChangePage(currentPage - 1)}
         className=" bg-red-500 text-white mx-1 px-3 py-1 disabled:bg-white disabled:cursor-none disabled:text-slate-400"

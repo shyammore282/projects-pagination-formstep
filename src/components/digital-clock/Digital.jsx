@@ -13,7 +13,7 @@ const DigitalClock = () => {
     };
   });
   return (
-    <div className="mt-9 flex flex-col items-center">
+    <div className="mt-9 flex flex-col items-center border justify-center ">
       <h2 className="text-xl font-bold">Digital Clock</h2>
       <div className="">
         <span>{time.getHours().toString().padStart(2, 0)}</span>:
